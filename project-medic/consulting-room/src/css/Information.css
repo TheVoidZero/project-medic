@@ -1,0 +1,60 @@
+.arrow-left {
+    width: 3px;
+    height: 3px;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid black;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+  }
+.background-image{
+        background-color: #EEDECE;
+        min-height: 100vh;
+        min-width: 100vw;
+    }
+     
+.Texto{
+        display: inline-block;
+        text-align: center;
+        left: 35vw;
+        top: 5vh;
+        font-size: 1.1vw;
+        position: fixed;
+    }
+
+.content-information{
+      display: inline-block;
+      text-align: justify;
+      top: 20vh;
+      left: 14vw;
+      right: 14vw;
+      font-size: 1.2vw;
+      position: fixed;
+      line-height: 2;
+  }
+
+.footer-opcions {
+        top: 96vh;
+        position: fixed;
+      }
+.opcion-aboutus{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+.arrow-back{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.icons{
+  width: 30px;
+  height: 30px;
+}
+
+
+
+    
+  

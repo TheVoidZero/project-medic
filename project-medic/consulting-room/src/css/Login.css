@@ -1,0 +1,90 @@
+.form-login {
+  background-color: aqua;
+  width: 20vw;
+  height: 35vh;
+  border: 2px solid gray;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  font-family: "Times New Roman", Times, serif;
+  box-sizing: border-box;
+  opacity: 0.94;
+}
+
+.Password {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.footer-opcions {
+  top: 96vh;
+  position: fixed;
+}
+
+.opcion-aboutus {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+.content-login{
+  background-image: url('../images/LoginBackground.png');
+  background-size: cover;
+  min-height: 100vh;
+  
+}
+.formulary p{
+  display: inline-block;
+  margin-right: 10px;
+  
+}
+.reasonMedical{
+  height: fit-content;
+  width: 96%;
+  padding: 10px;
+  resize: none;
+}
+.content-formulary{
+  background-color: #EEDECE;
+  min-height: 100vh;
+  
+}
+
+.text-background{
+  width: fit-content;
+  height: fit-content;
+  border: 10px solid gray;
+  position: absolute;
+  top: 3vh;
+  left: 20vw;
+  font-size: 100%;
+  background-color: whitesmoke;
+  opacity: 0.78;
+}
+
+.information {
+  display: flex; 
+  justify-content: space-between; 
+  flex-wrap: wrap; 
+}
+
+.data-user,
+.date-birth,
+.identification {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px; 
+}
+
+@media (max-width: 768px) {
+  .information {
+    flex-direction: column; 
+  }
+
+  .data-user,
+  .date-birthh,
+  .identification {
+    width: 100%; 
+  }
+}

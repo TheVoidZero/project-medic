@@ -1,0 +1,81 @@
+body, html, #root, .container {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .container {
+    display: flex;
+    height: 100%;
+    font-size: 130%;
+  }
+  
+  .sidebar {
+    width: 13%;
+    background-color: #7AD1E4;
+    opacity: 0.9; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .menu-boton {
+    margin: 10px;
+    width: 8vw;
+    height: 5vh;
+    font-size: 76%; 
+  }
+  .content {
+    background-color: #EEDECE;
+    width: 87%;
+    height: 100vh; 
+  }
+.table-container {
+  padding: 16px;
+  height: 90%; 
+  overflow-y: auto; 
+  border: 1px solid #ccc; 
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  line-height: 4;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.reprogramar{
+  position: relative;
+  left: 30vw;
+  width: 8vw;
+  height: 5vh;
+  font-size: 76%;
+  opacity: 0.8;
+
+}
+
+.table th {
+  background-color: #f1f1f1;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.calendario{
+  width: 400;
+  position: absolute;
+  top: 2vh;
+  left: 13vw;
+  transform: 'translate(-50%, -50%)';
+  width: 400;
+  background-color: whitesmoke;
+  opacity: 0.9;
+  border: 1px solid #000;
+  box-shadow: 24;
+}

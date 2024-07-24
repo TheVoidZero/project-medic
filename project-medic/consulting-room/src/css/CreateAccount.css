@@ -1,0 +1,28 @@
+    .razonMedica{
+        resize: none;
+    }
+
+    .name-account p,h4{
+        display: inline-block;
+    }
+
+    .name-account{
+        text-align: justify;
+        font-size: 1.5vh;
+        line-height: 1.5;
+    }
+
+    .title-text{
+        display: inline-block;
+        text-align: center;
+        left: 10vw;
+        top: 0vh;
+        height: fit-content;
+        font-size: 110%;
+        position: fixed;
+        background-color: whitesmoke;
+        border: 2px solid gray;
+        font-family: "Times New Roman", Times, serif;
+        box-sizing: border-box;
+        opacity: 0.85;
+    }
