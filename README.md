@@ -2,7 +2,9 @@
 Es una pagina base para gestion de citas
 
 ##########################################
+
 Instrucciones:
+
 Importar la base de datos llamada base_de_gatos en XAMPP
 
 Realizar un npm install en la carpeta conexion node
